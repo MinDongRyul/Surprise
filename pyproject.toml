@@ -18,7 +18,6 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
 ]
 # license = { "file" = "LICENSE.md" }
-[project]
 license = "MIT"
 license-files = ["LICENSE.md"]
 
