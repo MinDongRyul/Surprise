@@ -17,7 +17,11 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
 ]
-license = { "file" = "LICENSE.md" }
+# license = { "file" = "LICENSE.md" }
+[project]
+license = "MIT"
+license-files = ["LICENSE.md"]
+
 dependencies = [
   # Lower bounds for deps are as in scikit-learn in May 2024, 1.6.dev0
   "joblib>=1.2.0",
